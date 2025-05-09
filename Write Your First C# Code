@@ -1,3 +1,11 @@
+// ------------------------------------------------------
+// File: Write Your First C# Code
+// Author: Cassandra Bulatao
+// Date: 5/9/2025
+// Description: This file contains tye practice code provided in the Write Your First C# Code from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+
 Console.WriteLine("Hello World!"); // Output: Hello World!)
 // console.WriteLine("Hello World!"); 
     // Causes an error due to C# being case-sensitive ((1,1): error CS0103: The name 'console' does not exist in the current context)
