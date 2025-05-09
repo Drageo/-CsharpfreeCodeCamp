@@ -1,0 +1,14 @@
+Console.WriteLine("Hello World!"); // Output: Hello World!)
+// console.WriteLine("Hello World!"); 
+    // Causes an error due to C# being case-sensitive ((1,1): error CS0103: The name 'console' does not exist in the current context)
+        /* When looking at error mesages, 
+        The first part (1,1) indicates the line and column (character) 
+        where the error occurred. */
+
+// Console.WriteLine('Hello World!');
+    // Causes an error due to the use of single-quotation marks (') to surround literal strings
+    // reads it as a character literal
+    // Error Message: (1,19): error CS1012: Too many characters in character literal
+
+// The key difference between Console.Write and Console.WriteLine is that:
+        // Console.WriteLine appends a new line after the output.
