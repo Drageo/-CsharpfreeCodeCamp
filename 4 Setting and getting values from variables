@@ -1,0 +1,24 @@
+// ------------------------------------------------------
+// File: Setting and getting values from variables
+// Author: Cassandra Bulatao
+// Date: 5/10/2025
+// Description: This file contains the practice code provided in the Setting and getting values from variables unit from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+// "Bob" = firstName; - This causes an error because the complier reads the code from left to right and the value cannot come before the variable
+
+/*
+int firstName; - This causes an error because of mismatched data type and value
+firstName = "Bob";
+*/
+
+string firstName; // variable declaration
+firstName = "Bob"; // assigning a value to a variable (uses the assignment operator =) (set/setting)
+Console.WriteLine(firstName); // retrieving values (get/getting)
+firstName = "Liem";
+Console.WriteLine(firstName);
+firstName = "Isabella";
+Console.WriteLine(firstName);
+firstName = "Yasmin";
+Console.WriteLine(firstName);
+// the code above shows how we are able to modify the value of a variable as we go
