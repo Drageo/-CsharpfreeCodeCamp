@@ -1,0 +1,12 @@
+// ------------------------------------------------------
+// File: Declare Variables
+// Author: Cassandra Bulatao
+// Date: 5/10/2025
+// Description: This file contains the practice code provided in the Declare variables unit from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+string firstName; // uses camelCase
+char userOption;
+int gameScore;
+decimal particlesPerMillion;
+bool processedCustomer;
