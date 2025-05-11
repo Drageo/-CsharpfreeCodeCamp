@@ -1,0 +1,15 @@
+// ------------------------------------------------------
+// File: Print literal values
+// Author: Cassandra Bulatao
+// Date: 5/10/2025
+// Description: This file contains tye practice code provided in the Print literal values from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+Console.WriteLine('C'); // character literal
+// Console.WriteLine('Hello World') - causes an error because the compiler is expecting a singular character only.
+Console.WriteLine(123); // int literal
+Console.WriteLine(0.25F); // float literal (append with the letter F or f referred to as literal suffix, to indicate use of float)
+Console.WriteLine(2.625); // double literal (doesnt need any suffix)
+Console.WriteLine(12.39816m); // decimal literal (append with the letter M or m referred to as literal suffix, to indicate use of decimal)
+Console.WriteLine(true); // boolean literal
+Console.WriteLine(false); // boolean literal
