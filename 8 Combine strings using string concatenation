@@ -1,0 +1,26 @@
+// ------------------------------------------------------
+// File: Combine strings using string concatenation
+// Author: Cassandra Bulatao
+// Date: 5/12/2025
+// Description: This file contains the practice code provided from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+// Concatenate a literal string and a variable
+/* 
+string firstName = "Bob";
+string message = "Hello " + firstName;
+Console.WriteLine(message); 
+*/
+
+// Concatenate multiple variables and literal strings
+/*
+string firstName = "Bob";
+string greeting = "Hello";
+string message = greeting + " " + firstName + "!";
+Console.WriteLine(message);
+*/
+
+// Try to avoid intermediate variables as much as you can
+string firstName = "Bob";
+string greeting = "Hello";
+Console.WriteLine(greeting + " " + firstName + "!");
