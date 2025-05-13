@@ -1,0 +1,26 @@
+// ------------------------------------------------------
+// File: Perform addition with implicit data conversion
+// Author: Cassandra Bulatao
+// Date: 5/12/2025
+// Description: This file contains the practice code provided from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+// Add two numeric values
+// declaration of variables
+int firstNumber = 12;
+int secondNumber = 7;
+// printing an output
+Console.WriteLine(firstNumber + secondNumber);
+
+// Mix data types to force implicit type conversions (impilicitly converts int to a string temp to concatenate)
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + widgetsSold + " widgets.");
+
+// Attempt a more advanced case of adding numbers and concatenating strings
+Console.WriteLine(firstName + " sold " + widgetsSold + 7 + " widgets.");
+
+// Add parentheses to clarify your intention to the compiler
+firstName = "Mandu";
+widgetsSold = 9;
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
