@@ -1,0 +1,11 @@
+// ------------------------------------------------------
+// File: Complete the challenge
+// Author: Cassandra Bulatao
+// Date: 5/12/2025
+// Description: This file contains the practice code provided from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+Console.WriteLine("Hello\nWorld!"); // \n for new line 
+Console.WriteLine("Hello\tWorld!"); // \t for a tab
+Console.WriteLine("Hello \"World\"!"); // use \ to separate properly and add ""
+Console.WriteLine("c:\\source\\repos"); // use two (\\) to serve as a single backslash for path
