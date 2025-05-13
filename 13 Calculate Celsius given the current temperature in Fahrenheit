@@ -1,0 +1,17 @@
+// ------------------------------------------------------
+// File: Calculate Celsius given the current temperature in Fahrenheit
+// Author: Cassandra Bulatao
+// Date: 5/12/2025
+// Description: This file contains the practice code provided from the free Foundational C# Certification path on freeCodeCamp.
+// ------------------------------------------------------
+
+// Given Code
+int fahrenheit = 94;
+
+// To convert temperatures in degrees Fahrenheit to Celsius, first subtract 32, then multiply by five ninths (5 / 9).
+
+decimal celsiusToFahrenheit = (decimal)fahrenheit - 32;
+decimal fraction = 5m/9m;
+decimal celsius = Math.Round(celsiusToFahrenheit * fraction, 1); // to round off to only one decimal place
+
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
